@@ -4,24 +4,195 @@ const menuData = [
 
   {
     label: "College Management ",
-    submenu: [{
-      label: "College Name",
+    submenu: [
+    {
+      label: "Open()",
       submenu: [
+      
+       
+     
         {
-          label: "MDU",
-        },
-        {
-          label: "Department",
+          label: "ClassRoom",
           submenu: [
-            {
-              label: "Department Name",
+          
+            { label: "IsOccupied" ,
+            submenu: [
+            
+              
+              { label: "isPresent() ",
+              submenu: [
+                {
+                  label: "Bus",
+                  submenu: [
+                    {
+                      label: "Bus Id",
+                      submenu: [
+                        {
+                          label: "121212",
+                        }
+                      
+                      ],
+                    },
+                    {
+                      label: "Bus Name",
+                      submenu: [
+                        {
+                          label: "Bus travel",
+                        }
+                      
+                      ],
+                    },
+                    {
+                      label: "Driver Name", submenu: [
+                        {
+                          label: "XYZ",
+                        },
+                      
+                      ],
+                    },
+                    {
+                      label: "Total Sheets",
+                      submenu: [
+                        {
+                          label: "123",
+                        },
+                        
+                      ],
+                    },
+                  ],
+                },
+                {
+                  label: "Staffs",
+                  submenu: [
+                    {
+                      label: "Staffs Id",
+                      submenu: [
+                        {
+                          label: "007",
+                        }
+                      
+                      ],
+                    },
+                    {
+                      label: "Staffs Name",
+                      submenu: [
+                        {
+                          label: "Kailash Tanwar",
+                        }
+                      
+                      ],
+                    },
+                    {
+                      label: "Salary",
+                    },
+                  ],
+                },
+                {
+                  label: "Library",
+                  submenu: [
+                    {
+                      label: "Library Name",  submenu: [
+                        {
+                          label: "xyz name",
+                        },
+                        
+                       
+                      ],
+                    },
+                    
+                   
+                  ],
+                },
+                {
+                  label: "LibraryID",
+                  submenu: [
+                    {
+                      label: "12122345676543"
+                    },
+                    
+                   
+                  ],
+                },
+              ],
+              
+             },{ label: "StudentDetails ",
+             submenu: [
+              {
+                label: "UG Students",
+                submenu: [
+                  {
+                    label: "Course",
+                    submenu: [
+                      {
+                        label: "BCA",
+                        submenu: [
+                          {
+                            label: "Percentage",
+                            submenu: [
+                              {
+                                label: "98%",
+                              }
+                            
+                            ],
+                          }
+                        
+                        ],
+                      }
+                    
+                    ],
+                  }
+                
+                ],
+              },
+              {
+                label: "PG Students",
+                submenu: [
+                  {
+                    label: "Course",
+                    submenu: [
+                      {
+                        label: "MCA",
+                        submenu: [
+                          {
+                            label: "Percentage",
+                            submenu: [
+                              {
+                                label: "99%",
+                              }
+                            
+                            ],
+                          }
+                        
+                        ],
+                      }
+                    
+                    ],
+                  }
+                
+                ],
+              },
+             
+            ],
+  
             },
-            { label: "Total Staffs" }
+              { label: "Gender" ,
+              submenu: [
+                {
+                  label: "Male",
+                },
+                
+                { label: "Female "
+               },
+              
+              ],
+            },
+            ],
+          },
           ],
         },
       ],
+  
     },
-
     {
       label: " facility",
       submenu: [ 
@@ -39,197 +210,25 @@ const menuData = [
 
     }
   ,
-  // /////////
   {
-    label: "Open()",
+    label: "College Name",
     submenu: [
-    
-     
-   
       {
-        label: "ClassRoom",
+        label: "MDU",
+      },
+      {
+        label: "Department",
         submenu: [
-        
-          { label: "IsOccupied" ,
-          submenu: [
-            {
-              label: "StudentName",
-            },
-            
-            { label: "isPresent() ",
-            submenu: [
-              {
-                label: "Bus",
-                submenu: [
-                  {
-                    label: "Bus Id",
-                    submenu: [
-                      {
-                        label: "121212",
-                      }
-                    
-                    ],
-                  },
-                  {
-                    label: "Bus Name",
-                    submenu: [
-                      {
-                        label: "Bus travel",
-                      }
-                    
-                    ],
-                  },
-                  {
-                    label: "Driver Name", submenu: [
-                      {
-                        label: "XYZ",
-                      },
-                    
-                    ],
-                  },
-                  {
-                    label: "Total Sheets",
-                    submenu: [
-                      {
-                        label: "123",
-                      },
-                      
-                    ],
-                  },
-                ],
-              },
-              {
-                label: "Staffs",
-                submenu: [
-                  {
-                    label: "Staffs Id",
-                    submenu: [
-                      {
-                        label: "007",
-                      }
-                    
-                    ],
-                  },
-                  {
-                    label: "Staffs Name",
-                    submenu: [
-                      {
-                        label: "Kailash Tanwar",
-                      }
-                    
-                    ],
-                  },
-                  {
-                    label: "Salary",
-                  },
-                ],
-              },
-              {
-                label: "Library",
-                submenu: [
-                  {
-                    label: "Library Name",  submenu: [
-                      {
-                        label: "xyz name",
-                      },
-                      
-                     
-                    ],
-                  },
-                  
-                 
-                ],
-              },
-              {
-                label: "LibraryID",
-                submenu: [
-                  {
-                    label: "12122345676543"
-                  },
-                  
-                 
-                ],
-              },
-            ],
-            
-           },{ label: "StudentDetails ",
-           submenu: [
-            {
-              label: "UG Students",
-              submenu: [
-                {
-                  label: "Course",
-                  submenu: [
-                    {
-                      label: "BCA",
-                      submenu: [
-                        {
-                          label: "Percentage",
-                          submenu: [
-                            {
-                              label: "98%",
-                            }
-                          
-                          ],
-                        }
-                      
-                      ],
-                    }
-                  
-                  ],
-                }
-              
-              ],
-            },
-            {
-              label: "PG Students",
-              submenu: [
-                {
-                  label: "Course",
-                  submenu: [
-                    {
-                      label: "MCA",
-                      submenu: [
-                        {
-                          label: "Percentage",
-                          submenu: [
-                            {
-                              label: "99%",
-                            }
-                          
-                          ],
-                        }
-                      
-                      ],
-                    }
-                  
-                  ],
-                }
-              
-              ],
-            },
-           
-          ],
-
+          {
+            label: "Department Name",
           },
-            { label: "Gender" ,
-            submenu: [
-              {
-                label: "Male",
-              },
-              
-              { label: "Female "
-             },
-            
-            ],
-          },
-          ],
-        },
+          { label: "Total Staffs" }
         ],
       },
     ],
-
-  }
+  },
+  // /////////
+ 
   /////////////////////////////
   ],
 
